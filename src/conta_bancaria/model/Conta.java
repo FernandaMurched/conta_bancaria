@@ -20,7 +20,8 @@ public class Conta {
 		this.titular = titular;
 		this.saldo = saldo;
 	}
-
+	
+	// Método Get(acessa e obtém informação) e Set(modifica a visualização) //
 	public int getNumero() {
 		return numero;
 	}
@@ -89,13 +90,13 @@ public class Conta {
 			default -> tipo = "Inválido";
 		}
 		
-		System.out.println("*****************************************");
-		System.out.println("*DADOS DA CONTA                         *");
-		System.out.println("*****************************************");
+		System.out.println("━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━");
+		System.out.println("               DADOS DA CONTA             ");
+		System.out.println("━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━");
 		System.out.println("Número da conta:" + this.numero);
 		System.out.println("Número da Agência:" + this.agencia);
 		System.out.println("Tipo da conta:" + tipo);
-		System.out.println("titular da conta:" + this.titular);
+		System.out.println("Titular da conta:" + this.titular);
 		System.out.println("Saldo da conta:" + nfMoeda.format(this.saldo));
 	}
 	
