@@ -91,7 +91,7 @@ public class Conta {
 		}
 		
 		System.out.println("━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━");
-		System.out.println("               DADOS DA CONTA             ");
+		System.out.println("               DADOS DA CONTA                ");
 		System.out.println("━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━■━");
 		System.out.println("Número da conta:" + this.numero);
 		System.out.println("Número da Agência:" + this.agencia);
